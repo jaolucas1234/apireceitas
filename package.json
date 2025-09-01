@@ -1,0 +1,20 @@
+{
+  "name": "receitasapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/server.js",
+  "scripts": {
+    "dev": "npx nodemon api/server.js"
+  },
+  "keywords": [],
+  "author": "João Leite",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "prisma": "^6.15.0"
+  }
+}
